@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/rova/proprietary/vendor/lib/hw/led/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/led/consumerir.default.so \
     vendor/xiaomi/rova/proprietary/vendor/lib64/hw/led/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/led/consumerir.default.so \
+    vendor/xiaomi/rova/proprietary/vendor/lib/hw/led/lights.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/led/lights.msm8937.so \
+    vendor/xiaomi/rova/proprietary/vendor/lib64/hw/led/lights.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/led/lights.msm8937.so \
     vendor/xiaomi/rova/proprietary/vendor/lib/hw/spidev/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/spidev/consumerir.default.so \
     vendor/xiaomi/rova/proprietary/vendor/lib64/hw/spidev/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/spidev/consumerir.default.so
 
